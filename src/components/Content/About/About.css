@@ -1,0 +1,51 @@
+.about{
+    padding: 10vh;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.heading{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.education-grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.education-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+.education-icon{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.education-info{
+    
+}
+
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 2vh;
+    }
+
+    .education-card{
+        max-width: 100%;
+    }
+}

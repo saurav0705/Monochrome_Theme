@@ -1,0 +1,44 @@
+.content-containers{
+    min-height: 100vh;
+    margin:0;
+}
+
+.parallax{
+  background-image: url('https://picsum.photos/200');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-text{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.background-non-black{
+    background-color: #232b2b;
+}
+
+.background-black{
+    background-color: black;
+}
+
+.sub-heading{
+    font-size: 42px;
+    text-align: left;
+    margin-top: 10vh;
+    text-transform: capitalize;
+    padding-left: 10px;
+    border-left: 2px solid yellow;
+}
+
+.margin-top-center{
+    padding-top: 10vh;
+}
+
+.color-white{
+    color: white;
+}

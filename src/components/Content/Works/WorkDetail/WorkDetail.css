@@ -1,0 +1,51 @@
+.work-detail-container{
+    position: fixed;
+    top:0;
+    z-index:5;
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
+    
+}
+
+.work-detail-content{
+    padding: 5vh;
+}
+
+.exit{
+    color: red;
+    text-align: right;
+    cursor: pointer;
+}
+
+.work-detail-description{
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.work-detail-time{
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+}
+
+.work-detail-url{
+    width: 50%;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2292a3;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
