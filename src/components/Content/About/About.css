@@ -26,6 +26,7 @@
     text-transform: capitalize;
     padding: 10px;
     max-width: fit-content;
+    margin: 1vh;
 }
 
 .education-icon{
@@ -39,8 +40,19 @@
     
 }
 
+.url{
+    width: 50%;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #2292a3;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .about{
         padding: 2vh;
     }
@@ -48,4 +60,10 @@
     .education-card{
         max-width: 100%;
     }
+
+    .education-grid{
+        display: block;
+    }
+
+    
 }

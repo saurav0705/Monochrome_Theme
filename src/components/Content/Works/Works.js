@@ -1,28 +1,26 @@
 import React, { useState } from 'react';
 import './Works.css';
 import WorkDetail from './WorkDetail/WorkDetail';
-const Works = () => {
+const Works = (props) => {
     const [open,setOpen] = useState(false);
+    const [project,setProject] = useState({});
 
     const toggle = () => {
         setOpen(!open);
     }
     return(
-        <div className="content-containers background-non-black">
+        <div id="works" className="content-containers background-non-black">
             <div className="works">
-                <div className="title-text margin-top-center">works</div>
+                <div className="title-text margin-top-center">my works</div>
                 <div className="works-container">
-                    <div className="work-tile" onClick={()=>toggle()}>project 1</div>
-                    <div className="work-tile">project 2</div>
-                    <div className="work-tile">project 3</div>
-                    <div className="work-tile">project 4</div>
-                    <div className="work-tile">project 5</div>
-                    <div className="work-tile">project 6</div>
-                    <div className="work-tile">project 7</div>
+                    {props.projects.map(project => {return(
+                        <div className="work-tile" key={project._id} onClick={()=>{setProject({...project});toggle()}}>{project.name}</div>
+                    )}) }
+                    
                 </div>
             </div>
             {open?
-            <WorkDetail toggle={()=>toggle()}/>:null}
+            <WorkDetail data={project} toggle={()=>toggle()}/>:null}
 
         </div>
     )

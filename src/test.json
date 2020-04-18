@@ -7,14 +7,14 @@
     "snapchat": "asdvwd",
     "twitter": "jbkjb"
   },
-  "name": "Saurav Aggarwal",
+  "name": "jane Doe",
   "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjgL5lMM6bHNaF5ybBHk-CzSnKNk4FMN3tZmfLlQg=s96-c",
-  "displayImage": "https://drive.google.com/uc?id=1wNqkZ61_X1qHqaYQvglsNzQVs4qDbEq7",
+  "displayImage": "https://picsum.photos/600",
   "email": "aggarwalsaurav98@gmail.com",
   "description": "Eu enim id ullamco incididunt consequat qui consequat proident tempor cupidatat. Pariatur ex adipisicing officia duis fugiat labore consectetur. Aute culpa veniam laborum amet. In quis exercitation aliqua incididunt nostrud in minim sunt cupidatat irure aliqua dolore. Nulla occaecat ullamco nulla nulla ipsum culpa officia cillum. Pariatur eiusmod pariatur anim excepteur occaecat cillum ipsum id ipsum non tempor.",
   "tagline": "Web Developer",
   "contact": [
-    8901079455
+    8901099999
   ],
   "education": [
     {
@@ -72,7 +72,7 @@
       "name": "lajvajbvkj",
       "description": "ubiubiui",
       "start": "2020-04-15T18:30:00.000Z",
-      "end": null,
+      "end": "",
       "ongoing": true,
       "url": "uiiubibi",
       "createdAt": "2020-04-11T14:55:43.714Z",
@@ -82,7 +82,7 @@
     {
       "_id": "5e9318f7bb2b567b508577dc",
       "name": "test",
-      "description": "ajbcjkadbc dcbwd c wiodcoiwdnc",
+      "description": "ajbcjkadbc dcbwd c wiodcoiwdncEa aliquip cillum nostrud labore sint commodo magna proident occaecat incididunt eiusmod amet. Eiusmod labore amet ex non. Anim quis minim sint mollit enim nostrud laborum. Quis ad sunt exercitation aliqua officia quis est ad enim.",
       "start": "2020-03-29T18:30:00.000Z",
       "end": null,
       "ongoing": true,
@@ -92,9 +92,17 @@
       "__v": 0
     }
   ],
-  "skills": [],
+  "skills": [
+    "django",
+    "python",
+    "node",
+    "html",
+    "css"
+  ],
   "hobbies": [
-    "ajksbckajbc"
+    "puzzles",
+    "physolology",
+    "physiology"
   ],
   "achievements": [
     {

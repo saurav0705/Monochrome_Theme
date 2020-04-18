@@ -3,12 +3,12 @@ import './Home.css';
 
 import {parrallax} from '../../assets/effects';
 
-const Home = () => {
+const Home = (props) => {
     return(
-        <div className="content-containers parralax" style={parrallax}>
+        <div id="home" className="content-containers parralax" style={parrallax}>
             <div className="home">
-                <div className="home-name">Jane Doe</div>
-                <div className="home-tagline">Tagline</div>
+                <div className="home-name">{props.name}</div>
+                <div className="home-tagline">{props.tagline}</div>
             </div>
         </div>
     )
