@@ -12,7 +12,7 @@ const Content = ({data}) => {
         <About description={data.description} education={data.education} achievements={data.achievements}/>
         <Skills experiance={data.experiance} skills={data.skills} hobbies={data.hobbies}/>
         <Works projects={data.projects}/>
-        <Contact contacts={data.contact} social={data.social} image={data.displayImage}/>
+        <Contact contacts={data.contact} social={{...data.social,...{"email":data.email}}} image={data.displayImage}/>
         </>
     )
 };
