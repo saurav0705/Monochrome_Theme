@@ -65,4 +65,8 @@
     .work-detail-description{
         max-height: 40vh;
     }
+
+    .uppercase{
+        font-size: 28px;
+    }
 }
