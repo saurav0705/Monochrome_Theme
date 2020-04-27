@@ -14,7 +14,7 @@ function App() {
     setInterval(()=> setLoading(loading => {if(loading=== 100){return 100;}else{ return loading+1}}),100);
     fetch(URL)
     .then(resp => resp.json())
-    .then(resp => {console.log(resp);setData(resp)}).catch(err => setData({"error":err}))
+    .then(resp => {setData(resp)}).catch(err => setData({"error":err}))
 
     
   },[])
